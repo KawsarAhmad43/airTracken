@@ -1,0 +1,26 @@
+#map {
+    height: 600px;
+    width: 100%;
+}
+
+/* Custom style for the plane icons */
+.plane-icon {
+    font-size: 20px;
+    color: #0073e6;
+}
+
+.highlighted-plane-icon {
+    font-size: 24px;
+    color: orange;
+}
+
+.progress-bar-section {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.progress-bar {
+    transition: width 0.4s ease;
+}
